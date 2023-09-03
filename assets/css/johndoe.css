@@ -11427,7 +11427,8 @@ pre .code {
 }
 
 .navbar .brand .brand-txt {
-  position: relative;
+  position: absolute;
+  left: 45%; /* 텍스트를 가로 중앙에 배치합니다. */
   bottom: -20px;
   opacity: 0;
   -webkit-transition: 1s;
@@ -11440,6 +11441,7 @@ pre .code {
   font-size: 13px;
   color: #888;
 }
+
 
 @media (max-width: 991.98px) {
   .navbar .brand {
